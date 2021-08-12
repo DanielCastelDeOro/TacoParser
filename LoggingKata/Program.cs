@@ -16,7 +16,6 @@ namespace LoggingKata
 
             logger.LogInfo("Log initialized");
 
-          
             var lines = File.ReadAllLines(csvPath);
             if (lines.Length == 0)
             {
